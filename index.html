@@ -6,7 +6,7 @@
         <style>
             .gridder{
                 display:grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
                 column-gap: 15px;
                 row-gap: 30px;
                 margin-top: 15px;
@@ -73,7 +73,7 @@
             }
 
 
-            @media(max-width: 1000px) {
+            /*@media(max-width: 1000px) {
                 .gridder{
                     grid-template-columns: 1fr 1fr 1fr;
                 }
@@ -87,7 +87,7 @@
                 .gridder{
                     grid-template-columns: 1fr;
                 }
-            }
+            }*/
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
