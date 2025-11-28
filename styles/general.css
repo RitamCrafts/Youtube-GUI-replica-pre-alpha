@@ -35,14 +35,7 @@ body{
         width: 50px;
     }
     .header-right-section{
-        visibility:collapse;
-    }
-    .my-channel-profile{
-        visibility: visible;
-    }
-    .upload,.youtube-apps,.notifications{
-            height: 0px;
-            width: 0px;
+        visibility:hidden;
     }
 }
 @media only screen and (max-width: 340px){
